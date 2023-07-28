@@ -167,4 +167,11 @@
       <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
     </repository>
   </repositories>
+	 <distributionManagement>
+        <repository>
+            <id>vprofile-release</id>
+            <name>VProfile Release Repository</name>
+            <url>http://3.82.200.27:8081/repository/vprofile-release/</url>
+        </repository>
+    </distributionManagement>
 </project>
