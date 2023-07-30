@@ -20,9 +20,9 @@
         <logback.version>1.1.3</logback.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-	 <tomcat.username>tomcat</tomcat.username>
-        <tomcat.password>tomcat</tomcat.password>
-        <tomcat.manager.url>http://54.173.234.50:8080/manager/text</tomcat.manager.url>
+	 <tomcat.username>admin</tomcat.username>
+        <tomcat.password>admin</tomcat.password>
+        <tomcat.manager.url>http://184.73.127.233:8080/manager/text</tomcat.manager.url>
     </properties>
 
     <dependencies>
@@ -185,7 +185,7 @@
         <repository>
             <id>vprofile-release</id>
             <name>VProfile Release Repository</name>
-            <url>http://3.82.200.27:8081/repository/vprofile-release/</url>
+            <url>http://54.84.143.75:8081/repository/vprofile-release/</url>
         </repository>
     </distributionManagement>
 </project>
